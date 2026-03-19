@@ -1,0 +1,11 @@
+# Core dependencies
+yt-dlp>=2024.1.0
+requests>=2.31.0
+
+# Google Sheets integration (upload/upload_to_sheet_oauth.py only)
+google-auth>=2.0.0
+google-auth-oauthlib>=1.0.0
+google-api-python-client>=2.0.0
+
+# System requirements (not pip-installable):
+# - ffmpeg + ffprobe must be in PATH (https://ffmpeg.org/download.html)
