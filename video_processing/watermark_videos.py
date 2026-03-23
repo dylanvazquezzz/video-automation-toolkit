@@ -18,7 +18,7 @@ WATERMARKS_DIR = SCRIPT_DIR / "watermarks"
 FINISHED_DIR = SCRIPT_DIR / "finished"
 
 # FFmpeg path
-FFMPEG_PATH = r"ffmpeg"
+FFMPEG_PATH = "ffmpeg"  # Use system ffmpeg; set to full path if not in PATH (e.g. r"C:\path\to\ffmpeg.exe")
 
 # Supported formats
 VIDEO_EXTENSIONS = {".mp4", ".mov", ".avi", ".mkv", ".webm"}

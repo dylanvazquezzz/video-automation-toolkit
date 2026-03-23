@@ -447,7 +447,7 @@ def main():
         print("\nExamples:")
         print("  python upload_to_sheet_oauth.py video.mp4 1abc123xyz")
         print("  python upload_to_sheet_oauth.py image.webp 1abc123xyz")
-        print('  python upload_to_sheet_oauth.py --folder "\/path\/to\/your\/folder" YOUR_SPREADSHEET_ID')
+        print('  python upload_to_sheet_oauth.py --folder "/path/to/your/folder" YOUR_SPREADSHEET_ID')
         print("\nOptional arguments:")
         print("  --sheet-name <name>  Sheet tab name (default: Sheet1)")
         print("  --row <number>       Specific row to update (single file mode only)")
